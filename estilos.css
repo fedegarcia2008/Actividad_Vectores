@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+
+.encabezado {
+    background-color: yellow;
+    padding: 25px;
+}
+
+.titulo {
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.subtitulo {
+    background-color: orange;
+    padding: 20px;
+}
+
+.subtitulo h2 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.lista {
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+a {
+    color: black;
+    font-weight: bold; 
+    font-size: 20px;
+    text-decoration: none;
+}
+
+form, p {
+    margin: 20px;
+    font-family: Georgia;
+    font-size: 25px;
+}
+
+label {
+    font-size: 25px;
+}
+
+input {
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+#nuevaSeccion {
+    display: none;
+    margin: 20px 0px;
+}
